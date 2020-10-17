@@ -1,0 +1,10 @@
+1.
+VARIABLES: Las variables son objetos que pueden contener información como texto, números, o también pueden contener nada.
+STRINGS: Son cadenas de texto.
+FUNCIONES: Son un tipo especial de objeto que se declaran como una variable seguida de dos parentesis. Dentro de las funciones podemos desarrollar tareas, crear variables, etc, y finalmente retornar un valor o no. La única forma de acceder a algo dentro de una función y devolverlo.
+DECLARACIONES: Con formas de controlar el flujo (flow control) de un algoritmo.
+VALORES BOOLEANS: 0 o 1, false o true, falso o verdadero.
+
+2. Instalado
+
+3. Resolviendo dentro del archivo homework.js
