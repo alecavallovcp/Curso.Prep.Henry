@@ -1,0 +1,8 @@
+1. for
+For es un bucle donde se define una variable, una condición, y un paso. Si la condición se cumple, se ejecuta el código del bloque y luego se aplica el paso. Si no se cumple, no se ejecuta.
+&& es un operador lógico AND, que devuelve false excepto si ambas partes son true
+|| es un operador lógico OR, que devuelve true excepto si ambas partes son false.
+! es un operador de negación.
+
+
+
