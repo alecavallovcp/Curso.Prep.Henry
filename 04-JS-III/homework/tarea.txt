@@ -1,0 +1,5 @@
+Array
+Es un conjunto de elementos ordenados. Puede contener cualquier tipo de datos.
+Se declaran con corchetes ALT91 y ALT93. Se ingresan datos sabiendo la posición, o con el método .push() al final, o con el método .unshift() al principio.
+Tienen varios métodos, y uno muy usado para recorrerlo con for o con while es .length que nos indica la cantidad de elementos en su interior.
+Si tenemos un array dentro de un array, llegaríamos a esos elementos usando varios corcheres como array[1][2]
