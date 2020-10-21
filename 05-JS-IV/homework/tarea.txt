@@ -1,0 +1,6 @@
+01. Objetos. Todo en JS es un objeto. se define por ejemplo var obj = {clave:valor, propiedad:'valor', key:'value',fun:function(){}}
+02. Propiedades. Son los valores dentro de un objeto. Pueden ser variables y también funciones. En este último caso se suelen llamar métodos.
+03. Son funciones dentro de objetos. Entonces las llamamos con el nombre del objeto más punto más el nombre de la función y los paréntesis.
+04. Bucle for in nos permite recorrer las propiedades de un objeto como si fuera un array. La sintaxis es un poco distinta al for común: for (let clave in objeto){console.log(objeto[clave])}
+05. DOT NOTATION se puede usar para referenciar a una propiedad de un objeto más fácilmente, pero tiene que ser un string ya que no funciona si el nombre clave es un número por ejemplo.
+SQUARE BRACKET NOTATION es usando los corchetes y dentro un string o número que indique el nombre de la propiedad. 

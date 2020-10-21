@@ -119,14 +119,14 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-  if(multiplicarArgumentos.arguments.length==0){
+  if(arguments.length==0){
     console.log('Sin argumentos, devolviendo 0');
     return 0;
   }
   var x=1;
-  for (var i=0;i<multiplicarArgumentos.arguments.length;i++){
+  for (var i=0;i<arguments.length;i++){
     console.log('Valor X= '+x);
-    x=x*multiplicarArgumentos.arguments[i];
+    x=x*arguments[i];
     console.log('Nuevo valor con argumento ['+i+'] es: '+x);
 
   }
