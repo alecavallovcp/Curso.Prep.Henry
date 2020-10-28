@@ -1,0 +1,7 @@
+prototype
+Es la forma en como se manejan las herencias en Java Script. Hay una cadena de ptototipos, PROTOTYPE CHAIN que es invocada en orden y la podemos usar para crear objetos que hereden propiedades y métodos de otros objetos.
+Hay varias formas de resolver esto, pero hay ciertas convenciones.
+
+constructores
+Se usan para inicializar objetos y hacer referencia a las propiedades y métodos de las clasees que queremos que herede.
+
