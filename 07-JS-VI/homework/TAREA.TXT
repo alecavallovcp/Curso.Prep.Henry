@@ -1,0 +1,1 @@
+FUNCIONES CALLBACKS: Son funciones que son pasadas como argumentos hacia otras funciones.Por convención, cuando se usan callbacks se las nombra "cb".

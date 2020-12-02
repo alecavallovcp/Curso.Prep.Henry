@@ -35,7 +35,7 @@ function agregarStringInvertida() {
     var cadenaInvertida='';
     for(i=this.length-1;i>=0;i--){
       //console.log('i='+i+' Cadena ACTUAL: "'+cadenaInvertida+'". Agregando al final caracter '+this[i]);
-      cadenaInvertida=cadenaInvertida+this[i];
+      cadenaInvertida=cadenaInvertida+this[i]; //this.charAt(i)
     }
     return cadenaInvertida;
   }
