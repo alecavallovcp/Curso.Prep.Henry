@@ -1,12 +1,80 @@
 
-            h1{color:darkorange;}
-            img{width: 400px;}
-            #thirdDiv{width: 600px;
-            height: 500px;
+            h1{color:rgb(0, 0, 0);
+                background-color: rgb(189, 176, 0);
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            padding: 10px;
+        }
+
+            img{width: 200px;}
+
+            
+
+            #thirdDiv{max-width: 600px;
+            height: auto;
             background-color: darksalmon;
             padding: 50px;
             border: 20px;
             border-style: dashed;
-            border-width: medium;}
+            border-width: medium;
+            margin: 0 auto;
+        }
+        .clearfix{overflow:visible;
+            zoom:1;}
+            
             #spanId{font-size: 18px;
-            margin: 50px;}
+                background-color: tomato;}
+
+                       
+            /* Imagen de fondo para toda la página */
+            .divContenedor{
+                height: 100vh;
+                background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                /* Utilizando la propiedad display */
+                display:flex;
+                justify-content: center;
+            }
+            /* Centrando los DIV */
+            /*Reseteamos el margen de html y body*/
+            html,body{ margin: 0;
+            margin-bottom: 100px;}
+            .divClass{
+                background-color: yellow;
+                /*width: 250px;
+                margin: 0 auto;*/}
+
+                /* Para tratar todos los elementos como cajas */
+                * {
+                    -webkit-box-sizing: border-box;
+                       -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                  }
+
+
+                  .fixed {
+                    position: fixed;
+                    bottom: 0;
+                    right: 0;
+                    width: 200px;
+                    border-color: rgb(206, 31, 31);
+                    border-style: dotted;
+                  }
+
+                  article img {
+                    float: right;
+                    width: 50%;
+                    min-width: 100px;
+                    max-width: 200px;
+                  }
+                  article{
+                      width: 80%;
+                      background: blue;}
+
+                      .box2 {
+                        
+                        width: 200px;
+                        height: 100px;
+                        margin: 1em;
+                      }
+                      div {display: inline-block;}
